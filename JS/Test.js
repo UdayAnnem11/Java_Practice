@@ -107,3 +107,14 @@ function MaxProduct(){
     return Math.max(arr[arr.length-1]*arr[arr.length-2],arr[0]*arr[1]);
 }
 console.log(MaxProduct());
+
+
+
+console.log("Before");
+
+setTimeout(() => console.log("First"), 1000);
+setTimeout(() => console.log("Second"), 500);
+setTimeout(() => console.log("Third"), 0);
+
+console.log("After");
+
